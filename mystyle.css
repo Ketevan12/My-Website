@@ -1,0 +1,39 @@
+mystyle.css
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+body{
+ font-size: 50px;
+ margin-left: 10px;
+background-color: rgb(0, 0, 0);
+font-family: 'Wallpoet', cursive;
+
+  .ball {z-index: auto;
+
+    border-radius: 50%;
+    width:10px; height:10px ;
+    margin-top: 78%;
+    margin-left: 35%;
+    position: fixed;
+ 
+    animation-name: bounce;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+  }
+  .ball1 {
+    z-index: auto;
+    border-radius: 50%;
+    width:10px; height:10px ;
+  top:57%;
+    position: fixed;
+    left: 38%;
+    animation-name: bouncess;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+  }
+
+
+}
